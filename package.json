@@ -9,22 +9,22 @@
     "dist": "electron-builder"
   },
   "build": {
-    "appId": "com.example.desktoppets",
-    "productName": "Desktop Pets",
-    "files": [
-      "**/*"
-    ],
-    "win": {
-      "target": [
-        "nsis"
-      ]
-    },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": false,
-      "allowToChangeInstallationDirectory": true
-    }
+  "appId": "com.example.desktoppets",
+  "productName": "Desktop Pets",
+  "files": [
+    "**/*"
+  ],
+  "win": {
+    "target": [
+      "nsis"
+    ]
   },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}
   "devDependencies": {
     "electron": "^26.0.0",
     "electron-builder": "^24.6.0"
