@@ -23,7 +23,8 @@
       "oneClick": false,
       "perMachine": false,
       "allowToChangeInstallationDirectory": true
-    }
+    },
+    "publish": null
   },
   "devDependencies": {
     "electron": "^26.0.0",
